@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "choon"
+version = "1.0.0"
+description = ""
+authors = ["Jonathan Doda <jonathan@jdoda.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pygame = "^2.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
